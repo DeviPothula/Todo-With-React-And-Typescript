@@ -1,0 +1,21 @@
+.item {
+    padding: 10px;
+
+    .displayItem {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .taskName {
+            padding-right: 10px;
+            width: 150px;
+            margin: 0px;
+
+        }
+
+        .deleteButton {
+            background-color: red;
+        }
+    }
+
+}
